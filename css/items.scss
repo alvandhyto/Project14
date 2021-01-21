@@ -1,0 +1,195 @@
+$bg-url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC";
+$bg-width: 50px;
+$bg-height: 50px;
+
+/* MAIN STYLES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    input[type="search"]::-webkit-search-decoration,
+    input[type="search"]::-webkit-search-cancel-button,
+    input[type="search"]::-webkit-search-results-button,
+    input[type="search"]::-webkit-search-results-decoration {
+        -webkit-appearance:none;
+    }
+}
+
+input[type="search"] {
+    background-color : #1F1F1F;
+    color: #F5F6F4;
+}
+
+body {
+    background: url($bg-url) repeat 0 0;
+    
+    -webkit-animation: bg-scrolling-reverse .92s infinite; /* Safari 4+ */
+    -moz-animation:    bg-scrolling-reverse .92s infinite; /* Fx 5+ */
+    -o-animation:      bg-scrolling-reverse .92s infinite; /* Opera 12+ */
+    animation:         bg-scrolling-reverse .92s infinite; /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function:    linear;
+    -o-animation-timing-function:      linear;
+    animation-timing-function:         linear;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #1F1F1F;
+    font-weight: 800;
+    font-style: italic;
+    font-size: calc(.4rem + 1.6vw);
+    margin: 0 auto;
+    left: 50vw;
+    position: absolute;
+    padding-top: 2rem;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+section {
+    padding: 0 2rem;
+}
+
+.center {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SEARCH BUTTON STYLING */
+form {
+    position: relative;
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: #1F1F1F;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 4px solid #1F1F1F;
+    padding: 5px;
+}
+
+ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+
+    p {
+        text-align: justify;
+    }
+
+    .inner-container {
+        margin-bottom: 1.5em;
+    }
+}
+
+input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.fa {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+    color: #F5F6F4;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover {
+    width: 80vw;
+    cursor: pointer;
+}
+
+form:hover input {
+    display: block;
+}
+
+form:hover .fa {
+    background: transparent;
+    color: #F5F6F4;
+}
+
+.outer-container {
+    padding-top: 2rem;
+}
+
+.inner-container {
+    background-color: #1F1F1F;
+    color: #F5F6F4;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 80vw;
+}
+
+/* SIZINGS */
+@media (min-width: 700px) {
+    a {
+        font-size: calc(.2rem + 1vw);
+    }
+}
+
+/* ANIMATIONS */
+@-webkit-keyframes bg-scrolling-reverse {
+    100% { background-position: $bg-width $bg-height; }
+}
+
+@-moz-keyframes    bg-scrolling-reverse {
+    100% { background-position: $bg-width $bg-height; }
+}
+
+@-o-keyframes      bg-scrolling-reverse {
+    100% { background-position: $bg-width $bg-height; }
+}
+
+@keyframes         bg-scrolling-reverse {
+    100% { background-position: $bg-width $bg-height; }
+}
+
+@-webkit-keyframes bg-scrolling {
+    0% { background-position: $bg-width $bg-height; }
+}
+
+@-moz-keyframes    bg-scrolling {
+    0% { background-position: $bg-width $bg-height; }
+}
+
+@-o-keyframes      bg-scrolling {
+    0% { background-position: $bg-width $bg-height; }
+}
+
+@keyframes         bg-scrolling {
+    0% { background-position: $bg-width $bg-height; }
+}
