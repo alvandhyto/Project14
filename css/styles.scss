@@ -1,4 +1,4 @@
-$bg-url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC";
+$bg-url: "../img/main-bg.png";
 $bg-width: 50px;
 $bg-height: 50px;
 
@@ -33,11 +33,6 @@ body {
     background-position: top; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-html {
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y proximity;
 }
 
 header {
@@ -82,10 +77,13 @@ main {
 section {
     padding: 2rem 2rem;
     min-height: 100vh;
-    min-width: 100vw;
-    scroll-snap-align: start;
+    min-width: 100%;
     text-align: center;
     position: relative;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
 }
 
 .container {
