@@ -1,3 +1,4 @@
+/* COLORS */
 /* MAIN STYLING */
 * {
   -webkit-box-sizing: border-box;
@@ -44,7 +45,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: #1F1F1F;
+  color: #363434;
   font-weight: 800;
   font-style: italic;
   font-size: calc(.4rem + 1.6vw);
@@ -53,14 +54,14 @@ header a {
 
 h1 {
   text-align: center;
-  color: #F5F6F4;
+  color: #efecec;
   width: 100%;
   font-size: calc(.6rem + 2vw);
   margin: 0;
 }
 
 p {
-  color: #F5F6F4;
+  color: #efecec;
 }
 
 ul {
@@ -83,7 +84,7 @@ section {
 }
 
 .container {
-  background-color: #1F1F1F;
+  background-color: #363434;
   padding: 2rem 2rem;
   text-align: center;
   position: relative;
@@ -113,7 +114,7 @@ section {
   font-family: 'Fugaz One', cursive;
   font-size: calc(2rem + 3vw);
   text-align: center;
-  color: #1F1F1F;
+  color: #363434;
 }
 
 .about ul {
@@ -257,14 +258,14 @@ section {
 .card-back h1 {
   padding: 1em 2em 0;
   font-size: calc(1rem + 10%);
-  color: #1F1F1F;
+  color: #363434;
 }
 
 .card-back p {
   padding: 0 2em 2em 2em;
   text-align: center;
   font-size: calc(.8rem + 10%);
-  color: #1F1F1F;
+  color: #363434;
 }
 
 .card-container {
@@ -317,7 +318,7 @@ input {
   top: 0;
   right: 0;
   border-radius: 10px;
-  color: #1F1F1F;
+  color: #363434;
   text-align: center;
   font-size: 1.2em;
   -webkit-transition: all 1s;
@@ -335,7 +336,7 @@ form:hover input {
 
 form:hover .fa {
   background: transparent;
-  color: #1F1F1F;
+  color: #363434;
 }
 
 /* SIZINGS */
@@ -379,4 +380,4 @@ form:hover .fa {
     background-position: 50px 50px;
   }
 }
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=main.css.map */
