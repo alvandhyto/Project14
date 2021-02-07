@@ -40,24 +40,6 @@ body {
     background-attachment: fixed;
 }
 
-header {
-    margin: 0 auto;
-    left: 50vw;
-    position: absolute;
-    padding-top: 2rem;
-    text-align: center;
-    transform: translateX(-50%);
-
-    a {
-        text-decoration: none;
-        color: $light;
-        font-weight: 800;
-        font-style: italic;
-        font-size: calc(.4rem + 1.6vw);
-        text-align: center;
-    }
-}
-
 h1 {
     text-align: center;
     color: $dark;
@@ -121,6 +103,25 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* SCROLLBAR STYLING */
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: grey grey;
+}
+  
+/* Works on Chrome, Edge, and Safari */
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 /* SEARCH BUTTON STYLING */

@@ -33,25 +33,6 @@
   animation-timing-function: linear;
 }
 
-header {
-  margin: 0 auto;
-  left: 50vw;
-  position: absolute;
-  padding-top: 2rem;
-  text-align: center;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-
-header a {
-  text-decoration: none;
-  color: #f7e8e8;
-  font-weight: 800;
-  font-style: italic;
-  font-size: calc(.4rem + 1.6vw);
-  text-align: center;
-}
-
 h1 {
   text-align: center;
   color: #dc7fb4;
@@ -120,6 +101,27 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+/* SCROLLBAR STYLING */
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: grey grey;
+}
+
+/* Works on Chrome, Edge, and Safari */
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 /* SEARCH BUTTON STYLING */
