@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Poppins:wght@300;600;800&display=swap");
 /* COLORS */
 /* MAIN STYLING */
 * {
@@ -35,14 +37,14 @@
 
 h1 {
   text-align: center;
-  color: #efecec;
+  color: #f2f2f2;
   width: 100%;
   font-size: calc(.6rem + 2vw);
   margin: 0;
 }
 
 p {
-  color: #efecec;
+  color: #f2f2f2;
 }
 
 ul {
@@ -66,7 +68,7 @@ section {
 }
 
 .container {
-  background-color: #363434;
+  background-color: #222831;
   padding: 2rem 2rem;
   text-align: center;
   position: relative;
@@ -97,7 +99,7 @@ section {
   font-family: 'Fugaz One', cursive;
   font-size: calc(2rem + 3vw);
   text-align: center;
-  color: #363434;
+  color: #222831;
 }
 
 .about ul {
@@ -267,14 +269,14 @@ section {
 .card-back h1 {
   padding: 1em 2em 1em;
   font-size: calc(1rem + 10%);
-  color: #363434;
+  color: #222831;
 }
 
 .card-back p {
   padding: 0 2em 2em 2em;
   text-align: center;
   font-size: calc(.8rem + 10%);
-  color: #363434;
+  color: #222831;
 }
 
 .card-container {
@@ -348,7 +350,7 @@ input {
   top: 0;
   right: 0;
   border-radius: 10px;
-  color: #363434;
+  color: #222831;
   text-align: center;
   font-size: 1.2em;
   -webkit-transition: all 1s;
@@ -366,7 +368,7 @@ form:hover input {
 
 form:hover .fa {
   background: transparent;
-  color: #363434;
+  color: #222831;
 }
 
 /* SIZINGS */
