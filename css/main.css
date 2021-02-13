@@ -22,7 +22,7 @@
 
 * body {
   font-family: 'Poppins', sans-serif;
-  background: url("../img/main-bg.png") repeat 0 0;
+  background: url("../img/bg-main.png") repeat 0 0;
   -webkit-animation: bg-scrolling-reverse .92s infinite;
   /* Safari 4+ */
   /* Fx 5+ */

@@ -1,4 +1,4 @@
-$bg-url: "../img/flowers-bg.png";
+$bg-url: "../img/bg-michelle.png";
 $bg-width: 50px;
 $bg-height: 50px;
 
@@ -6,7 +6,7 @@ $bg-height: 50px;
 $dark: #f2f2f2;
 $light: #7c73e6;
 
-/* MAIN STYLES */
+/* MAIN STYLING */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,11 +18,6 @@ $light: #7c73e6;
     input[type="search"]::-webkit-search-results-decoration {
         -webkit-appearance:none;
     }
-}
-
-input[type="search"] {
-    background-color : $dark;
-    color: $light;
 }
 
 body {
@@ -93,6 +88,11 @@ p {
 }
 
 /* SEARCH BUTTON STYLING */
+input[type="search"] {
+    background-color : $dark;
+    color: $light;
+}
+
 form {
     position: relative;
     transition: all 1s;

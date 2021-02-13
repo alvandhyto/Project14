@@ -6,11 +6,6 @@
   margin: 0;
   padding: 0;
   max-width: 100%;
-  background-size: 200% 200%;
-  -webkit-font-smoothing: antialiased;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 * input[type="search"]::-webkit-search-decoration,
@@ -20,9 +15,8 @@
   -webkit-appearance: none;
 }
 
-* body {
-  font-family: 'Poppins', sans-serif;
-  background: url("../img/valentine-bg.png") repeat 0 0;
+body {
+  background: url("../img/bg-tazqia.png") repeat 0 0;
   -webkit-animation: bg-scrolling-reverse .92s infinite;
   /* Safari 4+ */
   /* Fx 5+ */
@@ -33,47 +27,18 @@
   animation-timing-function: linear;
 }
 
-h1 {
+html {
+  font-family: 'Poppins', sans-serif;
   text-align: center;
-  color: #b94e8a;
-  width: 100%;
-  font-size: calc(.6rem + 2vw);
-  margin: 0;
-}
-
-p {
-  color: #b94e8a;
-  font-weight: 500;
-}
-
-ul {
-  list-style-type: none;
-}
-
-main {
-  padding: 0rem 1rem;
-  min-height: 100vh;
 }
 
 section {
-  padding: 2rem 2rem;
-  min-height: 100vh;
-  min-width: 100%;
-  text-align: center;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  padding: 0 2rem;
 }
 
-.landing {
-  height: 100vh;
-}
-
-.landing h1 {
-  font-family: 'Fugaz One', cursive;
-  font-size: calc(2rem + 3vw);
-  text-align: center;
-  color: #f2f2f2;
+p {
+  color: #7EA5B4;
+  font-weight: 500;
 }
 
 .outer-container {
@@ -82,7 +47,7 @@ section {
 
 .inner-container {
   background-color: #f2f2f2;
-  color: #f2f2f2;
+  color: #7EA5B4;
   padding: 1rem 1.5rem;
   text-align: center;
   border-radius: 10px;
@@ -128,7 +93,7 @@ section {
 /* SEARCH BUTTON STYLING */
 input[type="search"] {
   background-color: #f2f2f2;
-  color: #b94e8a;
+  color: #7EA5B4;
 }
 
 form {
@@ -222,7 +187,7 @@ input {
   top: 0;
   right: 0;
   border-radius: 10px;
-  color: #b94e8a;
+  color: #7EA5B4;
   text-align: center;
   font-size: 1.2em;
   -webkit-transition: all 1s;
@@ -240,22 +205,12 @@ form:hover input {
 
 form:hover .fa {
   background: transparent;
-  color: #b94e8a;
+  color: #7EA5B4;
 }
 
 /* SIZINGS */
 @media (min-width: 700px) {
-  .team ul {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 100%;
-    width: 100%;
-  }
-  header a {
+  a {
     font-size: calc(.2rem + 1vw);
   }
 }
@@ -284,4 +239,4 @@ form:hover .fa {
     background-position: 50px 50px;
   }
 }
-/*# sourceMappingURL=valentine.css.map */
+/*# sourceMappingURL=tazqia.css.map */

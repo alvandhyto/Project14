@@ -1,5 +1,5 @@
 /* COLORS */
-/* MAIN STYLES */
+/* MAIN STYLING */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -15,13 +15,8 @@
   -webkit-appearance: none;
 }
 
-input[type="search"] {
-  background-color: #f2f2f2;
-  color: #7c73e6;
-}
-
 body {
-  background: url("../img/flowers-bg.png") repeat 0 0;
+  background: url("../img/bg-michelle.png") repeat 0 0;
   -webkit-animation: bg-scrolling-reverse .92s infinite;
   /* Safari 4+ */
   /* Fx 5+ */
@@ -96,6 +91,11 @@ p {
 }
 
 /* SEARCH BUTTON STYLING */
+input[type="search"] {
+  background-color: #f2f2f2;
+  color: #7c73e6;
+}
+
 form {
   position: relative;
   -webkit-transition: all 1s;
